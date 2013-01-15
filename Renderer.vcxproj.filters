@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Buffers">
+      <UniqueIdentifier>{3216762c-0c52-4c0b-b020-1f591b4c2daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL3x">
+      <UniqueIdentifier>{2fe42497-713f-46f0-85e8-7d1721bada1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL3x\Buffers">
+      <UniqueIdentifier>{354ed695-85be-457f-bb7e-4e75a88e2ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GL3x\Ids">
+      <UniqueIdentifier>{de6265f1-49e4-4137-a584-94c01c4518cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Device.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Indices.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexAttribute.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferHint.h">
+      <Filter>Source Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>Source Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>Source Files\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferGL3x.h">
+      <Filter>Source Files\GL3x\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferTarget.h">
+      <Filter>Source Files\GL3x\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferIdGL3x.h">
+      <Filter>Source Files\GL3x\Ids</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeConverterGL3x.h">
+      <Filter>Source Files\GL3x</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Indices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexAttribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferGL3x.cpp">
+      <Filter>Source Files\GL3x\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeConverterGL3x.cpp">
+      <Filter>Source Files\GL3x</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
