@@ -48,6 +48,11 @@ public:
     void Bind();
 
     ///
+    /// \brief Unbinds the buffer for use
+    ///
+    void UnBind();
+
+    ///
     /// \brief Copies data from an array in memory to the buffer
     ///
     /// \param[in] bufferInSystemMemory The array in memory containing the data to copy
@@ -55,7 +60,7 @@ public:
     /// \param[in] lenthInBytes The number of bytes to copy into the buffer
     ///
     template <typename T>
-    void CopyFromSystemMemory(T* bufferInSystemMemory, int destinationOffsetInBytes, int lengthInBytes);
+    void CopyFromSystemMemory(const T* bufferInSystemMemory, int destinationOffsetInBytes, int lengthInBytes);
 
     ///
     /// \brief Copies data from the buffer to an array in memory

@@ -19,7 +19,7 @@ public:
         CopyFromSystemMemory(bufferInSystemMemory, destinationOffsetInBytes, 0);
     }
 
-    void virtual CopyFromSystemMemory(const T* bufferInSystemMemory, int destinationOffsetInBytes, int lengthInBytes) = 0;
+    virtual void CopyFromSystemMemory(const T* bufferInSystemMemory, int destinationOffsetInBytes, int lengthInBytes) = 0;
 
     T* CopyToSystemMemory()
     {

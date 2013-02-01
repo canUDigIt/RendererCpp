@@ -11,7 +11,7 @@ public:
     static VertexBuffer<T>* CreateVertexBuffer( BufferHint usage, int sizeInBytes);
 
     template <typename T>
-    static IndexBuffer* CreateIndexBuffer(BufferHint usage, int sizeInBytes);
+    static IndexBuffer<T>* CreateIndexBuffer(BufferHint usage, int sizeInBytes);
 };
 
 #endif

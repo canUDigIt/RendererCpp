@@ -11,8 +11,7 @@
 /// \brief Contains the BufferIdGL3x class
 ///
 
-#include <Windows.h>
-#include <GL/glew.h>
+#include "OpenGL.h"
 
 ///
 /// \class BufferIdGL3x BufferIdGL3x.h GL3x/Ids/BufferIdGL3x.h

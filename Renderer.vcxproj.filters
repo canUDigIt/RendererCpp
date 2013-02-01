@@ -56,6 +56,15 @@
     <ClInclude Include="TypeConverterGL3x.h">
       <Filter>Source Files\GL3x</Filter>
     </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>Source Files\GL3x</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferGL3x.h">
+      <Filter>Source Files\GL3x\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBufferGL3x.h">
+      <Filter>Source Files\GL3x\Buffers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Indices.cpp">
@@ -72,6 +81,12 @@
     </ClCompile>
     <ClCompile Include="TypeConverterGL3x.cpp">
       <Filter>Source Files\GL3x</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferGL3x.cpp">
+      <Filter>Source Files\GL3x\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBufferGL3x.cpp">
+      <Filter>Source Files\GL3x\Buffers</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
