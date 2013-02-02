@@ -21,6 +21,12 @@
     <Filter Include="Source Files\GL3x\Ids">
       <UniqueIdentifier>{de6265f1-49e4-4137-a584-94c01c4518cf}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\RenderState">
+      <UniqueIdentifier>{0b9dd987-d0e6-432b-bb43-db2e6903a6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{6bcc0d3e-8895-44eb-9e9a-8df432845ea2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -65,6 +71,48 @@
     <ClInclude Include="IndexBufferGL3x.h">
       <Filter>Source Files\GL3x\Buffers</Filter>
     </ClInclude>
+    <ClInclude Include="RenderState.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Blending.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMask.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthRange.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="DepthTest.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="FacetCulling.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="WindingOrder.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveRestart.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="ScissorTest.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Source Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilTest.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilTestFace.h">
+      <Filter>Source Files\RenderState</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearBuffers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearState.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Indices.cpp">
@@ -87,6 +135,9 @@
     </ClCompile>
     <ClCompile Include="IndexBufferGL3x.cpp">
       <Filter>Source Files\GL3x\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>Source Files\Geometry</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

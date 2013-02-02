@@ -83,25 +83,40 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Blending.h" />
     <ClInclude Include="BufferGL3x.h" />
     <ClInclude Include="BufferHint.h" />
     <ClInclude Include="BufferIdGL3x.h" />
     <ClInclude Include="BufferTarget.h" />
+    <ClInclude Include="ClearBuffers.h" />
+    <ClInclude Include="ClearState.h" />
+    <ClInclude Include="ColorMask.h" />
+    <ClInclude Include="DepthRange.h" />
+    <ClInclude Include="DepthTest.h" />
     <ClInclude Include="Device.h" />
+    <ClInclude Include="FacetCulling.h" />
     <ClInclude Include="IndexBuffer.h" />
     <ClInclude Include="IndexBufferGL3x.h" />
     <ClInclude Include="Indices.h" />
     <ClInclude Include="OpenGL.h" />
+    <ClInclude Include="PrimitiveRestart.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="RenderState.h" />
+    <ClInclude Include="ScissorTest.h" />
+    <ClInclude Include="StencilTest.h" />
+    <ClInclude Include="StencilTestFace.h" />
     <ClInclude Include="TypeConverterGL3x.h" />
     <ClInclude Include="VertexAttribute.h" />
     <ClInclude Include="VertexBuffer.h" />
     <ClInclude Include="VertexBufferGL3x.h" />
+    <ClInclude Include="WindingOrder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BufferGL3x.cpp" />
     <ClCompile Include="Device.cpp" />
     <ClCompile Include="IndexBufferGL3x.cpp" />
     <ClCompile Include="Indices.cpp" />
+    <ClCompile Include="Rectangle.cpp" />
     <ClCompile Include="TypeConverterGL3x.cpp" />
     <ClCompile Include="VertexAttribute.cpp" />
     <ClCompile Include="VertexBufferGL3x.cpp" />
