@@ -20,14 +20,14 @@ public:
 
     enum VertexAttributeType
     {
-        VAT_UnsignedByte,
+        UnsignedByte,
         Float,
         FloatVector2,
         FloatVector3,
         FloatVector4,
         EmulatedDoubleVector3,
 
-        VAT_END_OF_TYPES
+        END_OF_TYPES
     };
 
     VertexAttributeBase( const std::string& name, VertexAttributeType type );

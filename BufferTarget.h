@@ -15,14 +15,14 @@
 
 enum BufferTarget
 {
-    BT_ArrayBuffer,
-    BT_ElementArrayBuffer,
-    BT_PixelPackBuffer,
-    BT_UniformBuffer,
-    BT_TextureBuffer,
-    BT_TransformFeedbackBuffer,
-    BT_CopyReadBuffer,
-    BT_CopyWriteBuffer,
+    ArrayBuffer,
+    ElementArrayBuffer,
+    PixelPackBuffer,
+    UniformBuffer,
+    TextureBuffer,
+    TransformFeedbackBuffer,
+    CopyReadBuffer,
+    CopyWriteBuffer,
 };
 
 #endif // !BUFFERTARGET_H

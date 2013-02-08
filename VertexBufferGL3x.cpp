@@ -5,7 +5,7 @@
 
 template <typename T>
 VertexBufferGL3x<T>::VertexBufferGL3x(BufferHint hint, int sizeInBytes)
-    : mBufferObject(BufferTarget::BT_ArrayBuffer, hint, sizeInBytes)
+    : mBufferObject(BufferTarget::ArrayBuffer, hint, sizeInBytes)
 {
     
 }

@@ -5,9 +5,9 @@
 
 enum CullFace
 {
-    CF_Front,
-    CF_Back,
-    CF_FrontAndBack
+    Front,
+    Back,
+    FrontAndBack
 };
 
 struct FacetCulling
@@ -15,8 +15,8 @@ struct FacetCulling
     FacetCulling()
     {
         Enabled = true;
-        Face = CullFace::CF_Back;
-        FrontFaceWindingOrder = WindingOrder::WO_Counterclockwise;
+        Face = CullFace::Back;
+        FrontFaceWindingOrder = WindingOrder::Counterclockwise;
     }
 
     bool Enabled;

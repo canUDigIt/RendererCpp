@@ -13,7 +13,7 @@ struct ClearState
         , DepthMask(true)
         , FrontStencilMask(~0)
         , BackStencilMask(~0)
-        , Buffers(ClearBuffers::CB_All)
+        , Buffers(ClearBuffers::All)
         , Color(Eigen::Vector4f(1, 1, 1, 1))
         , Depth(1)
         , Stencil(0)

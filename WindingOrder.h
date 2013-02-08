@@ -3,8 +3,8 @@
 
 enum WindingOrder
 {
-    WO_Clockwise,
-    WO_Counterclockwise
+    Clockwise,
+    Counterclockwise
 };
 
 #endif // WINDINGORDER_H

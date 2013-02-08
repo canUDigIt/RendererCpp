@@ -3,11 +3,11 @@
 
 enum ClearBuffers
 {
-    CB_ColorBuffer = 1,
-    CB_DepthBuffer = 2,
-    CB_StencilBuffer = 4,
-    CB_ColorAndDepthBuffer = CB_ColorBuffer | CB_DepthBuffer, 
-    CB_All = CB_ColorBuffer | CB_DepthBuffer | CB_StencilBuffer
+    ColorBuffer = 1,
+    DepthBuffer = 2,
+    StencilBuffer = 4,
+    ColorAndDepthBuffer = ColorBuffer | DepthBuffer, 
+    All = ColorBuffer | DepthBuffer | StencilBuffer
 };
 
 #endif // !CLEARBUFFERS_H

@@ -14,15 +14,15 @@
 
 enum BufferHint
 {
-    BH_StreamDraw,
-    BH_StreamRead,
-    BH_StreamCopy,
-    BH_StaticDraw,
-    BH_StaticRead,
-    BH_StaticCopy,
-    BH_DynamicDraw,
-    BH_DynamicRead,
-    BH_DynamicCopy,
+    StreamDraw,
+    StreamRead,
+    StreamCopy,
+    StaticDraw,
+    StaticRead,
+    StaticCopy,
+    DynamicDraw,
+    DynamicRead,
+    DynamicCopy,
 };
 
 #endif

@@ -50,7 +50,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>GLEW_STATIC;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\eigen;C:\boost_1_50_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -103,9 +103,14 @@
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="RenderState.h" />
     <ClInclude Include="ScissorTest.h" />
+    <ClInclude Include="ShaderProgram.h" />
     <ClInclude Include="StencilTest.h" />
     <ClInclude Include="StencilTestFace.h" />
     <ClInclude Include="TypeConverterGL3x.h" />
+    <ClInclude Include="Uniform.h" />
+    <ClInclude Include="UniformBlock.h" />
+    <ClInclude Include="UniformBlockMember.h" />
+    <ClInclude Include="UniformType.h" />
     <ClInclude Include="VertexAttribute.h" />
     <ClInclude Include="VertexBuffer.h" />
     <ClInclude Include="VertexBufferGL3x.h" />
@@ -117,7 +122,9 @@
     <ClCompile Include="IndexBufferGL3x.cpp" />
     <ClCompile Include="Indices.cpp" />
     <ClCompile Include="Rectangle.cpp" />
+    <ClCompile Include="ShaderProgram.cpp" />
     <ClCompile Include="TypeConverterGL3x.cpp" />
+    <ClCompile Include="Uniform.cpp" />
     <ClCompile Include="VertexAttribute.cpp" />
     <ClCompile Include="VertexBufferGL3x.cpp" />
   </ItemGroup>

@@ -3,37 +3,37 @@
 
 enum StencilOperation
 {
-    SO_Zero,
-    SO_Invert,
-    SO_Keep,
-    SO_Replace,
-    SO_Increment,
-    SO_Decrement,
-    SO_IncrementWrap,
-    SO_DecrementWrap
+    Zero,
+    Invert,
+    Keep,
+    Replace,
+    Increment,
+    Decrement,
+    IncrementWrap,
+    DecrementWrap
 };
 
 enum StencilTestFunction
 {
-    STF_Never,
-    STF_Less,
-    STF_Equal,
-    STF_LessThanOrEqual,
-    STF_Greater,
-    STF_NotEqual,
-    STF_GreaterThanOrEqual,
-    STF_Always
+    Never,
+    Less,
+    Equal,
+    LessThanOrEqual,
+    Greater,
+    NotEqual,
+    GreaterThanOrEqual,
+    Always
 };
 
 struct StencilTestFace
 {
     StencilTestFace()
     {
-        StencilFailOperation = StencilOperation::SO_Keep;
-        DepthFailPassOperation = StencilOperation::SO_Keep;
-        DepthPassStencilPassOperation = StencilOperation::SO_Keep;
+        StencilFailOperation = StencilOperation::Keep;
+        DepthFailPassOperation = StencilOperation::Keep;
+        DepthPassStencilPassOperation = StencilOperation::Keep;
 
-        Function = StencilTestFunction::STF_Always;
+        Function = StencilTestFunction::Always;
         ReferenceValue = 0;
         Mask = ~0;
     }

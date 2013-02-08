@@ -9,11 +9,11 @@ class IndicesBase
 public:
     enum IndicesType
     {
-        IT_UnsignedByte,
-        IT_UnsignedShort,
-        IT_UnsignedInt,
+        UnsignedByte,
+        UnsignedShort,
+        UnsignedInt,
 
-        IT_END_OF_TYPES
+        END_OF_TYPES
     };
 
     IndicesBase(IndicesType type);

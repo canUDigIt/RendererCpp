@@ -20,8 +20,8 @@
 ///
 enum IndexBufferDataType
 {
-    IDT_UnsignedInt,
-    IDT_UnsignedShort
+    UnsignedInt,
+    UnsignedShort
 };
 
 ///

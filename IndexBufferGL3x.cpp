@@ -4,15 +4,15 @@
 
 template <typename T>
 IndexBufferGL3x<T>::IndexBufferGL3x(BufferHint usage, int sizeInBytes)
-    : mBufferObject(BufferTarget::BT_ElementArrayBuffer, usage, sizeInBytes)
+    : mBufferObject(BufferTarget::ElementArrayBuffer, usage, sizeInBytes)
 {
     if (sizeof(T) == sizeof(unsigned short))
     {
-        mDataType = IDT_UnsignedShort;
+        mDataType = UnsignedShort;
     }
     else
     {
-        mDataType = IDT_UnsignedInt;
+        mDataType = UnsignedInt;
     }
 }
 

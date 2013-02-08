@@ -5,46 +5,46 @@
 
 enum SourceBlendingFactor
 {
-    SBF_Zero,
-    SBF_One,
-    SBF_SourceAlpha,
-    SBF_OneMinusSourceAlpha,
-    SBF_DestinationAlpha,
-    SBF_OneMinusDestinationAlpha,
-    SBF_DestinationColor,
-    SBF_OneMinusDestinationColor,
-    SBF_SourceAlphaSaturate,
-    SBF_ConstantColor,
-    SBF_OneMinusConstantColor,
-    SBF_ConstantAlpha,
-    SBF_OneMinusConstantAlpha
+    Zero,
+    One,
+    SourceAlpha,
+    OneMinusSourceAlpha,
+    DestinationAlpha,
+    OneMinusDestinationAlpha,
+    DestinationColor,
+    OneMinusDestinationColor,
+    SourceAlphaSaturate,
+    ConstantColor,
+    OneMinusConstantColor,
+    ConstantAlpha,
+    OneMinusConstantAlpha
 };
 
 enum DestinationBlendingFactor
 {
-    DBF_Zero,
-    DBF_One,
-    DBF_SourceColor,
-    DBF_OneMinusSourceColor,
-    DBF_SourceAlpha,
-    DBF_OneMinusSourceAlpha,
-    DBF_DestinationAlpha,
-    DBF_OneMinusDestinationAlpha,
-    DBF_DestinationColor,
-    DBF_OneMinusDestinationColor,
-    DBF_ConstantColor,
-    DBF_OneMinusConstantColor,
-    DBF_ConstantAlpha,
-    DBF_OneMinusConstantAlpha
+    Zero,
+    One,
+    SourceColor,
+    OneMinusSourceColor,
+    SourceAlpha,
+    OneMinusSourceAlpha,
+    DestinationAlpha,
+    OneMinusDestinationAlpha,
+    DestinationColor,
+    OneMinusDestinationColor,
+    ConstantColor,
+    OneMinusConstantColor,
+    ConstantAlpha,
+    OneMinusConstantAlpha
 };
 
 enum BlendEquation
 {
-    BE_Add,
-    BE_Minimum,
-    BE_Maximum,
-    BE_Subtract,
-    BE_ReverseSubtract
+    Add,
+    Minimum,
+    Maximum,
+    Subtract,
+    ReverseSubtract
 };
 
 struct Blending
@@ -52,12 +52,12 @@ struct Blending
     Blending()
     {
         Enabled = false;
-        SourceRGBFactor = SourceBlendingFactor::SBF_One;
-        SourceAlphaFactor = SourceBlendingFactor::SBF_One;
-        DestinationRGBFactor = DestinationBlendingFactor::DBF_Zero;
-        DestinationAlphaFactor = DestinationBlendingFactor::DBF_Zero;
-        RGBEquation = BlendEquation::BE_Add;
-        AlphaEquation = BlendEquation::BE_Add;
+        SourceRGBFactor = SourceBlendingFactor::One;
+        SourceAlphaFactor = SourceBlendingFactor::One;
+        DestinationRGBFactor = DestinationBlendingFactor::Zero;
+        DestinationAlphaFactor = DestinationBlendingFactor::Zero;
+        RGBEquation = BlendEquation::Add;
+        AlphaEquation = BlendEquation::Add;
         Color = Eigen::Vector4f::Zero();
     }
     

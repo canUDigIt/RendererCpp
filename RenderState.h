@@ -21,22 +21,22 @@
 
 enum ProgramPointSize
 {
-    PPS_Enabled,
-    PPS_Disabled
+    Enabled,
+    Disabled
 };
 
 enum RasterizationMode
 {
-    RM_Point,
-    RM_Line,
-    RM_Fill
+    Point,
+    Line,
+    Fill
 };
 
 struct RenderState
 {
     RenderState()
-        : ProgramPointSize(ProgramPointSize::PPS_Disabled)
-        , RasterizationMode(RasterizationMode::RM_Fill)
+        : ProgramPointSize(ProgramPointSize::Disabled)
+        , RasterizationMode(RasterizationMode::Fill)
         , ColorMask(true, true, true, true)
         , DepthRange()
         , Blending()
